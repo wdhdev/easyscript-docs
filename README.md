@@ -31,7 +31,7 @@ pnpm add easyscriptjs
 ```
 
 ```ts
-import simplydjs from 'https://cdn.skypack.dev/easyscriptjs';
+import easyscript from 'https://cdn.skypack.dev/easyscriptjs';
 ```
 
 <br>
