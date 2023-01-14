@@ -26,12 +26,12 @@ const config: DocsThemeConfig = {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Easy Script" />
       <meta
-        property="og:thumbnail"
+        property="og:image"
         content="https://images.easyscript.dev/banner.png"
       />
       <meta
         property="og:description"
-        content="A npm package which makes coding in JavaScript easy!"
+        content="The official documentation for Easy Script."
       />
     </>
   ),
