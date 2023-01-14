@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
-  docsRepositoryBase: 'https://github.com/EasyScriptJS/docs',
+  docsRepositoryBase: 'https://github.com/EasyScriptJS/docs/blob/main',
   footer: {
     text: '© 2023 Easy Script - All Rights Reserved.',
   },
