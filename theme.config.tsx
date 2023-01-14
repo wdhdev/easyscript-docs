@@ -2,6 +2,12 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
+ useNextSeoProps() {
+    return {
+      title: "Easy Script",
+      titleTemplate: "Easy Script",
+    };
+  },
  head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
