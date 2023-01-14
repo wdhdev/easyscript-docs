@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "easyscript-docs",
+  "version": "1.0.0",
+  "description": "Easy Script Docs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/easyscriptjs/docs.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Easy Script <admin@easyscript.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/easyscriptjs/docs/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://docs.easyscript.dev",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "2.0.1",
