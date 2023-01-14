@@ -5,15 +5,15 @@ The removeDuplicates module removes duplicates and cleans up arrays
 
 ```js
 const dirtyArray = [
-    ""/** Empty string */,
+    "", /* Empty string */
     "I am a string", "I am a string", /* Duplicate strings */
-    0, 0, -50, -50, 5, 5 /** Numbers */,
-    [1, "Another string", 5], [10, [44]],/** Arrays */
-    {}, /** Empty objects */,
-    { key: "value", key2: "value 2" }, /** Object */
-    () => { }, /** Functions  */
-    , null /** Null */
-    , undefined /** Undefined */
+    0, 0, -50, -50, 5, 5, /* Numbers */
+    [1, "Another string", 5], [10, [44]], /* Arrays */
+    {}, /* Empty objects */
+    { key: "value", key2: "value 2" }, /* Object */
+    () => { }, /* Functions */
+    null, /* Null */
+    undefined /* Undefined */
 ]
 
 // Log to console
@@ -23,8 +23,8 @@ console.log(removeDuplicates(dirtyArray, true, true["numeric", "lengthwise", "al
 
 // Log to console
 console.log(removeDuplicates(dirtyArray, false, false, "none")) 
-// Sames as console.log(removeDuplicates(dirtyArray))
-// Remove duplicate values only
+// Same as console.log(removeDuplicates(dirtyArray))
+// Removes duplicate values only
 
 // [ '', 0, 'I am a string', -50, 5, [1, 'Another string', 5], [10, [44]], {}, undefined, { key: 'value', key2: 'value 2' }, [Function(anonymous)], null ]
 ```
