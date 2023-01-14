@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
-  logo: (<><img src="https://images.easyscript.dev/banner.png"></>),
+  logo: (<><img src="https://images.easyscript.dev/banner.png" /></>),
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
