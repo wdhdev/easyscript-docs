@@ -41,7 +41,7 @@ import easyscript from 'https://cdn.skypack.dev/easyscriptjs';
 - Easier yet Flexible.
 - Beginner Friendly
 - Open source project !
-- Simple & Understandable **[Documentation](https://docs.)**
+- Simple & Understandable **[Documentation](https://docs.easyscript.dev)**
 
 <br>
 
