@@ -1,10 +1,10 @@
 {
-  "flip": "Module: flip",
-  "log": "Module: log",
-  "id": "Module: id",
-  "print": "Module: print",
-  "random": "Module: random",
-  "util": "Module: util",
-  "types": "Module: types",
-  "uuid": "Module: uuid"
+  "flip": "flip",
+  "log": "log",
+  "id": "id",
+  "print": "print",
+  "random": "random",
+  "util": "util",
+  "types": "types",
+  "uuid": "uuid"
 }
