@@ -1,0 +1,14 @@
+{
+  "flip": "Flip a coin",
+  "log": "Log",
+  "id": "Random ID generator",
+  "print": "Print",
+  "random": "Random number generator",
+  "util": "Utilities",
+  "types": "Type Converters",
+  "uuid": "UUID generator",
+  "about": {
+    "title": "About",
+    "type": "page"
+  }
+}

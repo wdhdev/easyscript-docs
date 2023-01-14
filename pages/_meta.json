@@ -1,0 +1,11 @@
+{
+  "index": "Introduction",
+  "usage": "Usage",
+  "modules": "Modules",
+  "contact": {
+    "title": "Contact Us",
+    "type": "page",
+    "href": "mailto://support@easyscript.dev",
+    "newWindow": true
+  }
+}
