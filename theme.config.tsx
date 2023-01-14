@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/EasyScriptJS/docs',
   footer: {
-    text: '© 2023 EasyScriptJS - All Rights Reserved.',
+    text: '© 2023 Easy Script - All Rights Reserved.',
   },
   /**
   banner: {
