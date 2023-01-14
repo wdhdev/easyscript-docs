@@ -1,14 +1,10 @@
 {
-  "flip": "Flip a coin",
-  "log": "Log",
-  "id": "Random ID generator",
-  "print": "Print",
-  "random": "Random number generator",
-  "util": "Utilities",
-  "types": "Type Converters",
-  "uuid": "UUID generator",
-  "about": {
-    "title": "About",
-    "type": "page"
-  }
+  "flip": "Module: flip",
+  "log": "Module: log",
+  "id": "Module: id",
+  "print": "Module: print",
+  "random": "Module: random",
+  "util": "Module: util",
+  "types": "Module: types",
+  "uuid": "Module: uuid"
 }
