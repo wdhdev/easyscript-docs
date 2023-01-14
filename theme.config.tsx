@@ -30,6 +30,7 @@ const config: DocsThemeConfig = {
         property="og:image"
         content="https://images.easyscript.dev/banner.png"
       />
+      <meta name="twitter:image" content="https://images.easyscript.dev/banner.png"/>
       <meta
         property="og:description"
         content="The official documentation for Easy Script."
