@@ -20,8 +20,8 @@ const config: DocsThemeConfig = {
   },
   /**
   banner: {
-    key: 'release/2.0.0',
-    text: '🎉 EasyScript 2.0.0 is released. Read more →'
+    key: 'v2',
+    text: '🎉 EasyScript v2 has been released! Read more →'
   },
   **/
 }
