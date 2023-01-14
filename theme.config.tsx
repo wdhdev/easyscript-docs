@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
-  logo: (<><img src="https://images.easyscript.dev/default.png" height="64px" /></>),
+  // logo: (<><img src="https://images.easyscript.dev/default.png" height="64px" /></>),
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
@@ -30,12 +30,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: '© 2023 Easy Script - All Rights Reserved.',
   },
-  /**
   banner: {
     key: 'v2',
     text: '🎉 EasyScript v2 has been released! Read more →'
   },
-  **/
 }
 
 export default config
