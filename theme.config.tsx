@@ -25,7 +25,6 @@ const config: DocsThemeConfig = {
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Easy Script" />
-      <meta itemprop="image" content="https://images.easyscript.dev/banner.png">
       <meta
         property="og:image"
         content="https://images.easyscript.dev/banner.png"
@@ -36,13 +35,14 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
+  // logo: (<><img src="https://images.easyscript.dev/default.png" height="64px" /></>),
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
   docsRepositoryBase: 'https://github.com/EasyScriptJS/docs/blob/main',
   footer: {
     text: '© 2023 Easy Script - All Rights Reserved.',
-  }
+  },
 }
 
 export default config
