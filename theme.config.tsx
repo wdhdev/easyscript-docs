@@ -36,18 +36,13 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
-  // logo: (<><img src="https://images.easyscript.dev/default.png" height="64px" /></>),
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
   docsRepositoryBase: 'https://github.com/EasyScriptJS/docs/blob/main',
   footer: {
     text: '© 2023 Easy Script - All Rights Reserved.',
-  },
-  banner: {
-    key: 'v2',
-    text: '🎉 EasyScript v2 has been released! Read more →'
-  },
+  }
 }
 
 export default config
