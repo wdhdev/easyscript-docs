@@ -1,8 +1,0 @@
-{
-  "boolToNum": "boolToNum",
-  "boolToStr": "boolToStr",
-  "numToBool": "numToBool",
-  "numToStr": "numToStr",
-  "strToBool": "strToBool",
-  "strToNum": "strToNum"
-}

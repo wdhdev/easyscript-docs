@@ -1,9 +1,13 @@
 # removeDuplicates
-The removeDuplicates module removes duplicates and cleans up arrays
+The removeDuplicates module removes duplicates and cleans up arrays.
 
 ## Example
 
 ```js
+// Import util
+const { util } = require("easyscriptjs");
+
+// Dirty array
 const dirtyArray = [
     "", /* Empty string */
     "I am a string", "I am a string", /* Duplicate strings */
@@ -17,13 +21,13 @@ const dirtyArray = [
 ]
 
 // Log to console
-console.log(removeDuplicates(dirtyArray, true, true["numeric", "lengthwise", "alphabetic"]))
+console.log(util.removeDuplicates(dirtyArray, true, true["numeric", "lengthwise", "alphabetic"]))
 // Clean falsy values, delete useless data, retrieve data from arrays and sort then remove duplicates
 // ['I am a string', -50, 0, 1, 5, 'Another string', 10, 44, { key: 'value', key2: 'value 2' }]
 
 // Log to console
-console.log(removeDuplicates(dirtyArray, false, false, "none")) 
-// Same as console.log(removeDuplicates(dirtyArray))
+console.log(util.removeDuplicates(dirtyArray, false, false, "none")) 
+// Same as console.log(util.removeDuplicates(dirtyArray))
 // Removes duplicate values only
 
 // [ '', 0, 'I am a string', -50, 5, [1, 'Another string', 5], [10, [44]], {}, undefined, { key: 'value', key2: 'value 2' }, [Function(anonymous)], null ]

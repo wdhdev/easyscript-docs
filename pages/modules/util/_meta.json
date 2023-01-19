@@ -1,3 +1,9 @@
 {
-  "removeDuplicates": "removeDuplicates"
+  "boolToNum": "boolToNum",
+  "boolToStr": "boolToStr",
+  "numToBool": "numToBool",
+  "numToStr": "numToStr",
+  "removeDuplicates": "removeDuplicates",
+  "strToBool": "strToBool",
+  "strToNum": "strToNum"
 }
