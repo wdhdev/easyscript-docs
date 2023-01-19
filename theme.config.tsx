@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
   },
   logo: (
     <>
-      <span style={{ marginLeft: '.4em', fontWeight: 600 }}>Easy Script</span>
+      <span style={{ fontWeight: 600 }}>Easy Script</span>
     </>
   ),
  head: (
@@ -29,7 +29,6 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
-  // logo: (<><img src="https://images.easyscript.dev/default.png" height="64px" /></>),
   project: {
     link: 'https://github.com/EasyScriptJS/EasyScript',
   },
