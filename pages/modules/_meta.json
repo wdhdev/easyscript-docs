@@ -5,6 +5,5 @@
   "print": "print",
   "random": "random",
   "util": "util",
-  "types": "types",
   "uuid": "uuid"
 }
