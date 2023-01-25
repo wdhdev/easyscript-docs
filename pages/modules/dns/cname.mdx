@@ -1,0 +1,32 @@
+# cname
+The CNAME submodule checks whether an CNAME record is valid or not.
+
+## Examples
+
+### Valid
+
+```js
+// Import DNS
+const { dns } = require("easyscriptjs");
+
+// Check the record
+const result = dns.cname("example.com");
+
+// Log result to console
+console.log(result);
+// true
+```
+
+### Invalid
+
+```js
+// Import DNS
+const { dns } = require("easyscriptjs");
+
+// Check the record
+const result = dns.cname("hello_world");
+
+// Log result to console
+console.log(result);
+// false
+```
