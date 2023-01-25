@@ -1,16 +1,40 @@
 # uuid
 The UUID module allows you to generate an ID using the format: `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx`.
 
-## Example
+## Examples
+
+### Single UUIDs
 
 ```js
 // Import module
 const { uuid } = require("easyscriptjs");
 
-// Generate ID
+// Generate UUID
 const result = uuid();
 
 // Log result to console
 console.log(result);
 // a807a029-ff82-4fb1-b353-c1d91266dfce
+```
+
+### Multiple UUIDs
+
+```js
+// Import module
+const { uuid } = require("easyscriptjs");
+
+// Generate 5 UUIDs
+const result = uuid(5);
+
+// Log result to console
+console.log(result);
+/*
+[
+  'b9aceec5-a0f1-487e-ab0e-b8edc4990b83',
+  'ae6b287c-723d-4c57-9a36-c67727d31d7f',
+  '0c04b01c-d604-4f41-85b5-991eb6cea776',
+  'c44e3926-d5c0-4c44-b584-383ec749da5c',
+  '17d16b73-919a-40d7-9034-01bfbfe6cae3'
+]
+*/
 ```
