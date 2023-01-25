@@ -1,16 +1,45 @@
 # id
-The id module generates a random id with the specified length.
+The id module generates a random ID with the specified length.
 
-## Example
+## Examples
+
+### Single ID
 
 ```js
 // Import module
 const { id } = require("easyscriptjs");
 
 // Generate an id with a length of 24
-const newId = id(24);
+const result = id(24);
 
 // Logs id to console
-console.log(newId);
+console.log(result);
 // 4uqv9ahgcafo8gnw415surtz
+```
+
+### Multiple IDs
+
+```js
+// Import module
+const { id } = require("easyscriptjs");
+
+// Generate 10 IDs each with a length of 16
+const result = id(16, 10);
+
+// Log result to console
+console.log(result);
+/*
+[
+  '4yip8e8a587barsw',
+  'cbciszt9qer78qaj',
+  'h8ad661ekkqupf01',
+  'zx7p2qxf594orxqg',
+  'pd05b4rq964c03p3',
+  'gr4wbisip2706df3',
+  'sif9gnd2l9f2aqao',
+  'uhukkol6vsvnas5r',
+  'qafkalcn3ugb2p56',
+  'yg94pcxp0gir0paz'
+]
+*/
 ```
