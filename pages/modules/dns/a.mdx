@@ -1,0 +1,32 @@
+# a
+The A record submodule checks whether an A record is valid or not.
+
+## Examples
+
+### Valid
+
+```js
+// Import DNS
+const { dns } = require("easyscriptjs");
+
+// Check the record
+const result = dns.a("1.1.1.1");
+
+// Log result to console
+console.log(result);
+// true
+```
+
+### Invalid
+
+```js
+// Import DNS
+const { dns } = require("easyscriptjs");
+
+// Check the record
+const result = dns.a("example.com");
+
+// Log result to console
+console.log(result);
+// false
+```
