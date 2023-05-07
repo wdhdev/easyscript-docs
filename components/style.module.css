@@ -1,6 +1,11 @@
 .counter {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 2px 6px;
-  margin: 12px 0 0;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 12px 0 0;
+    transition: .3s linear;
+}
+
+.counter:hover {
+    opacity: .7;
 }

@@ -1,10 +1,10 @@
 {
-  "index": "Home",
-  "usage": "Usage",
-  "issue": {
-    "title": "Open an Issue",
-    "type": "page",
-    "href": "https://github.com/EasyScriptJS/EasyScript/issues/new/choose",
-    "newWindow": true
-  }
+    "index": "Home",
+    "usage": "Usage",
+    "issue": {
+        "title": "Open an Issue",
+        "type": "page",
+        "href": "https://github.com/EasyScriptJS/EasyScript/issues/new/choose",
+        "newWindow": true
+    }
 }

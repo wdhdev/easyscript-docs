@@ -1,9 +1,9 @@
 {
-  "flip": "flip",
-  "log": "log",
-  "id": "id",
-  "print": "print",
-  "random": "random",
-  "util": "util",
-  "uuid": "uuid"
+    "flip": "flip",
+    "log": "log",
+    "id": "id",
+    "print": "print",
+    "random": "random",
+    "util": "util",
+    "uuid": "uuid"
 }

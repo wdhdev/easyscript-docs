@@ -9,24 +9,31 @@ const { util } = require("easyscriptjs");
 
 // Dirty array
 const dirtyArray = [
-    "", /* Empty string */
-    "I am a string", "I am a string", /* Duplicate strings */
-    0, 0, -50, -50, 5, 5, /* Numbers */
-    [1, "Another string", 5], [10, [44]], /* Arrays */
-    {}, /* Empty objects */
-    { key: "value", key2: "value 2" }, /* Object */
-    () => { }, /* Functions */
-    null, /* Null */
-    undefined /* Undefined */
-]
+    "" /* Empty string */,
+    "I am a string",
+    "I am a string" /* Duplicate strings */,
+    0,
+    0,
+    -50,
+    -50,
+    5,
+    5 /* Numbers */,
+    [1, "Another string", 5],
+    [10, [44]] /* Arrays */,
+    {} /* Empty objects */,
+    { key: "value", key2: "value 2" } /* Object */,
+    () => {} /* Functions */,
+    null /* Null */,
+    undefined /* Undefined */,
+];
 
 // Log to console
-console.log(util.removeDuplicates(dirtyArray, true, true["numeric", "lengthwise", "alphabetic"]))
+console.log(util.removeDuplicates(dirtyArray, true, true[("numeric", "lengthwise", "alphabetic")]));
 // Clean falsy values, delete useless data, retrieve data from arrays and sort then remove duplicates
 // ['I am a string', -50, 0, 1, 5, 'Another string', 10, 44, { key: 'value', key2: 'value 2' }]
 
 // Log to console
-console.log(util.removeDuplicates(dirtyArray, false, false, "none")) 
+console.log(util.removeDuplicates(dirtyArray, false, false, "none"));
 // Same as console.log(util.removeDuplicates(dirtyArray))
 // Removes duplicate values only
 
