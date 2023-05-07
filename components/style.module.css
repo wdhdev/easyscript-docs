@@ -1,6 +1,6 @@
 .counter {
-    border: 2px solid #cccccc;
-    border-radius: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
     padding: 2px 6px;
     margin: 12px 0 0;
     transition: .3s linear;
