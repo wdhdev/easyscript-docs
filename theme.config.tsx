@@ -1,5 +1,5 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react"
+import { DocsThemeConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
  useNextSeoProps() {
@@ -20,22 +20,22 @@ const config: DocsThemeConfig = {
    
       <meta
         property="og:image"
-        content="https://images.easyscript.dev/banner.png"
+        content="https://media.easyscript.dev/banner.png"
       />
-      <meta name="twitter:image" content="https://images.easyscript.dev/banner.png"/>
+      <meta name="twitter:image" content="https://media.easyscript.dev/banner.png"/>
       <meta
         property="og:description"
-        content="The official documentation for Easy Script."
+        content="Documentation for Easy Script"
       />
     </>
   ),
   project: {
-    link: 'https://github.com/EasyScriptJS/EasyScript',
+    link: 'https://github.com/EasyScriptJS/EasyScript'
   },
   docsRepositoryBase: 'https://github.com/EasyScriptJS/docs/blob/main',
   footer: {
-    text: '© 2023 Easy Script - All Rights Reserved.',
-  },
+    text: '© 2023 Easy Script - All Rights Reserved.'
+  }
 }
 
 export default config
