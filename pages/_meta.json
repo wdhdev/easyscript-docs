@@ -1,12 +1,6 @@
 {
   "index": "Home",
   "usage": "Usage",
-  "website": {
-    "title": "Website",
-    "type": "page",
-    "href": "https://easyscript.dev",
-    "newWindow": true
-  },
   "issue": {
     "title": "Open an Issue",
     "type": "page",
