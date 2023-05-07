@@ -1,7 +1,7 @@
 {
   "name": "easyscript-docs",
   "version": "1.0.0",
-  "description": "Easy Script Docs",
+  "description": "Documentation for Easy Script",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easyscriptjs/docs.git"
+    "url": "git+https://github.com/EasyScriptJS/docs.git"
   },
   "author": "Easy Script <admin@easyscript.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/easyscriptjs/docs/issues"
+    "url": "https://github.com/EasyScriptJS/docs/issues"
   },
-  "homepage": "https://docs.easyscript.dev",
+  "homepage": "https://easyscript.dev",
   "dependencies": {
     "clsx": "^1.2.1",
     "next": "^13.0.6",
