@@ -1,0 +1,2 @@
+# 📜 Documentation
+https://easyscript.dev
