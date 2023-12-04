@@ -4,7 +4,7 @@
     "issue": {
         "title": "Open an Issue",
         "type": "page",
-        "href": "https://github.com/EasyScriptJS/EasyScript/issues/new/choose",
+        "href": "https://github.com/wdhdev/EasyScript/issues/new/choose",
         "newWindow": true
     }
 }

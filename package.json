@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EasyScriptJS/docs.git"
+    "url": "git+https://github.com/wdhdev/easyscript-docs.git"
   },
   "author": "Easy Script <admin@easyscript.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EasyScriptJS/docs/issues"
+    "url": "https://github.com/wdhdev/easyscript-docs/issues"
   },
-  "homepage": "https://easyscript.dev",
+  "homepage": "https://github.com/wdhdev/easyscript-docs#readme",
   "dependencies": {
     "clsx": "^1.2.1",
     "next": "^13.0.6",

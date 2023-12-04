@@ -17,12 +17,6 @@ const config: DocsThemeConfig = {
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Easy Script" />
-   
-      <meta
-        property="og:image"
-        content="https://media.easyscript.dev/banner.png"
-      />
-      <meta name="twitter:image" content="https://media.easyscript.dev/banner.png"/>
       <meta
         property="og:description"
         content="Documentation for Easy Script"
@@ -30,9 +24,9 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: 'https://github.com/EasyScriptJS/EasyScript'
+    link: 'https://github.com/wdhdev/EasyScript'
   },
-  docsRepositoryBase: 'https://github.com/EasyScriptJS/docs/blob/main',
+  docsRepositoryBase: 'https://github.com/wdhdev/easyscript-docs/blob/main',
   footer: {
     text: '© 2023 Easy Script - All Rights Reserved.'
   }
